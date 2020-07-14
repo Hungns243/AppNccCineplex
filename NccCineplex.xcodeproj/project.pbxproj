@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE5F6F42A5D1ACD5EC983787 /* Pods_NccCineplex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62EB840DED53AB49D36A6C2 /* Pods_NccCineplex.framework */; };
+		CE3D7E5724B42BB0004F2B0B /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D7E5624B42BB0004F2B0B /* HomeCollectionViewCell.swift */; };
 		CE437AA024AB21C10096268F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE437A9F24AB21C10096268F /* AppDelegate.swift */; };
 		CE437AA224AB21C10096268F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE437AA124AB21C10096268F /* SceneDelegate.swift */; };
 		CE437AA424AB21C10096268F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE437AA324AB21C10096268F /* ViewController.swift */; };
@@ -14,9 +16,19 @@
 		CE437AA924AB21C20096268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE437AA824AB21C20096268F /* Assets.xcassets */; };
 		CE437AAC24AB21C20096268F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE437AAA24AB21C20096268F /* LaunchScreen.storyboard */; };
 		CE437AB424AB22C70096268F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE437AB324AB22C70096268F /* HomeViewController.swift */; };
+		CE81ABE324BD96DB00A8454F /* DataComingSunMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81ABE224BD96DB00A8454F /* DataComingSunMovie.swift */; };
+		CEC0516424B3108C004283D0 /* MovieScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0516324B3108C004283D0 /* MovieScheduleViewController.swift */; };
+		CEC0516624B310C2004283D0 /* PromotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0516524B310C2004283D0 /* PromotionViewController.swift */; };
+		CEC0516824B31100004283D0 /* MovieTicketPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0516724B31100004283D0 /* MovieTicketPriceViewController.swift */; };
+		CEE8163E24B56EA8009F1221 /* DataMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8163D24B56EA8009F1221 /* DataMovie.swift */; };
+		CEF521E424AC8EB400B88CC2 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF521E324AC8EB400B88CC2 /* CustomView.swift */; };
+		CEF521E624AC8EDC00B88CC2 /* customView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF521E524AC8EDC00B88CC2 /* customView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29BD9FA11A09BE82F79B21E0 /* Pods-NccCineplex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NccCineplex.release.xcconfig"; path = "Target Support Files/Pods-NccCineplex/Pods-NccCineplex.release.xcconfig"; sourceTree = "<group>"; };
+		807E7E768A3A79AB905D6D2D /* Pods-NccCineplex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NccCineplex.debug.xcconfig"; path = "Target Support Files/Pods-NccCineplex/Pods-NccCineplex.debug.xcconfig"; sourceTree = "<group>"; };
+		CE3D7E5624B42BB0004F2B0B /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE437A9C24AB21C10096268F /* NccCineplex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NccCineplex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE437A9F24AB21C10096268F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE437AA124AB21C10096268F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +39,14 @@
 		CE437AAD24AB21C20096268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE437AB324AB22C70096268F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CE437AB524AB3F490096268F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE81ABE224BD96DB00A8454F /* DataComingSunMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataComingSunMovie.swift; sourceTree = "<group>"; };
+		CEC0516324B3108C004283D0 /* MovieScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScheduleViewController.swift; sourceTree = "<group>"; };
+		CEC0516524B310C2004283D0 /* PromotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionViewController.swift; sourceTree = "<group>"; };
+		CEC0516724B31100004283D0 /* MovieTicketPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTicketPriceViewController.swift; sourceTree = "<group>"; };
+		CEE8163D24B56EA8009F1221 /* DataMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMovie.swift; sourceTree = "<group>"; };
+		CEF521E324AC8EB400B88CC2 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		CEF521E524AC8EDC00B88CC2 /* customView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = customView.xib; sourceTree = "<group>"; };
+		F62EB840DED53AB49D36A6C2 /* Pods_NccCineplex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NccCineplex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,18 +54,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5F6F42A5D1ACD5EC983787 /* Pods_NccCineplex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		810E26D292D524845C8441C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F62EB840DED53AB49D36A6C2 /* Pods_NccCineplex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE437A9324AB21C10096268F = {
 			isa = PBXGroup;
 			children = (
 				CE437AB524AB3F490096268F /* README.md */,
 				CE437A9E24AB21C10096268F /* NccCineplex */,
 				CE437A9D24AB21C10096268F /* Products */,
+				F9765EC13A490B07F2931528 /* Pods */,
+				810E26D292D524845C8441C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,13 +94,30 @@
 				CE437A9F24AB21C10096268F /* AppDelegate.swift */,
 				CE437AA124AB21C10096268F /* SceneDelegate.swift */,
 				CE437AA324AB21C10096268F /* ViewController.swift */,
+				CEF521E324AC8EB400B88CC2 /* CustomView.swift */,
+				CEF521E524AC8EDC00B88CC2 /* customView.xib */,
 				CE437AB324AB22C70096268F /* HomeViewController.swift */,
+				CE3D7E5624B42BB0004F2B0B /* HomeCollectionViewCell.swift */,
+				CEE8163D24B56EA8009F1221 /* DataMovie.swift */,
+				CE81ABE224BD96DB00A8454F /* DataComingSunMovie.swift */,
+				CEC0516324B3108C004283D0 /* MovieScheduleViewController.swift */,
+				CEC0516724B31100004283D0 /* MovieTicketPriceViewController.swift */,
+				CEC0516524B310C2004283D0 /* PromotionViewController.swift */,
 				CE437AA524AB21C10096268F /* Main.storyboard */,
 				CE437AA824AB21C20096268F /* Assets.xcassets */,
 				CE437AAA24AB21C20096268F /* LaunchScreen.storyboard */,
 				CE437AAD24AB21C20096268F /* Info.plist */,
 			);
 			path = NccCineplex;
+			sourceTree = "<group>";
+		};
+		F9765EC13A490B07F2931528 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				807E7E768A3A79AB905D6D2D /* Pods-NccCineplex.debug.xcconfig */,
+				29BD9FA11A09BE82F79B21E0 /* Pods-NccCineplex.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE437AB024AB21C20096268F /* Build configuration list for PBXNativeTarget "NccCineplex" */;
 			buildPhases = (
+				10A2F8C4AB38BDDFB640A671 /* [CP] Check Pods Manifest.lock */,
 				CE437A9824AB21C10096268F /* Sources */,
 				CE437A9924AB21C10096268F /* Frameworks */,
 				CE437A9A24AB21C10096268F /* Resources */,
+				775CD649CAA9C528BF857846 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE437AAC24AB21C20096268F /* LaunchScreen.storyboard in Resources */,
+				CEF521E624AC8EDC00B88CC2 /* customView.xib in Resources */,
 				CE437AA924AB21C20096268F /* Assets.xcassets in Resources */,
 				CE437AA724AB21C10096268F /* Main.storyboard in Resources */,
 			);
@@ -138,15 +189,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10A2F8C4AB38BDDFB640A671 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NccCineplex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		775CD649CAA9C528BF857846 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NccCineplex/Pods-NccCineplex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NccCineplex/Pods-NccCineplex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NccCineplex/Pods-NccCineplex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE437A9824AB21C10096268F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC0516424B3108C004283D0 /* MovieScheduleViewController.swift in Sources */,
+				CEF521E424AC8EB400B88CC2 /* CustomView.swift in Sources */,
+				CEE8163E24B56EA8009F1221 /* DataMovie.swift in Sources */,
 				CE437AA424AB21C10096268F /* ViewController.swift in Sources */,
 				CE437AA024AB21C10096268F /* AppDelegate.swift in Sources */,
 				CE437AA224AB21C10096268F /* SceneDelegate.swift in Sources */,
+				CE3D7E5724B42BB0004F2B0B /* HomeCollectionViewCell.swift in Sources */,
+				CEC0516824B31100004283D0 /* MovieTicketPriceViewController.swift in Sources */,
 				CE437AB424AB22C70096268F /* HomeViewController.swift in Sources */,
+				CE81ABE324BD96DB00A8454F /* DataComingSunMovie.swift in Sources */,
+				CEC0516624B310C2004283D0 /* PromotionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +388,7 @@
 		};
 		CE437AB124AB21C20096268F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807E7E768A3A79AB905D6D2D /* Pods-NccCineplex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,6 +406,7 @@
 		};
 		CE437AB224AB21C20096268F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BD9FA11A09BE82F79B21E0 /* Pods-NccCineplex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
