@@ -15,7 +15,6 @@ class HomeViewController: UIViewController {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         
-        view.backgroundColor = .yellow
         
         return view
     }()
@@ -100,6 +99,8 @@ class HomeViewController: UIViewController {
         
         viewSegment.translatesAutoresizingMaskIntoConstraints = false
         //        viewSegment.backgroundColor = .white
+        viewSegment.layer.borderWidth = 1
+        viewSegment.layer.borderColor = UIColor.black.cgColor
         
         return viewSegment
     }()
@@ -109,6 +110,7 @@ class HomeViewController: UIViewController {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         
         collectionView.translatesAutoresizingMaskIntoConstraints = false
+//        collectionView.backgroundColor = .black
         
         return collectionView
     }()
@@ -116,7 +118,9 @@ class HomeViewController: UIViewController {
     let viewButton: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .blue
+        view.backgroundColor = .black
+        view.layer.borderWidth = 1
+        view.layer.borderColor = UIColor.black.cgColor
         
         return view
     }()
@@ -131,6 +135,7 @@ class HomeViewController: UIViewController {
         
         
         
+        
         return button
     }()
     
@@ -138,11 +143,18 @@ class HomeViewController: UIViewController {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         
+        label.textColor = .white
+//        label.font = UIFont.systemFont(ofSize: 14)
+        label.font = UIFont.boldSystemFont(ofSize: 20)
+        
         return label
     }()
     let timeMovieLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
+        
+        label.textColor = .white
+        label.font = UIFont.systemFont(ofSize: 14)
         
         return label
     }()
@@ -345,16 +357,16 @@ class HomeViewController: UIViewController {
         
         // layout scrollviewMovie
         collectionViewMovie.topAnchor.constraint(equalTo: viewSegment.bottomAnchor, constant: 0).isActive = true
-        collectionViewMovie.heightAnchor.constraint(equalTo: viewArea.heightAnchor, multiplier: 0.53).isActive = true
+        collectionViewMovie.heightAnchor.constraint(equalTo: viewArea.heightAnchor, multiplier: 0.56).isActive = true
         collectionViewMovie.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         collectionViewMovie.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        collectionViewMovie.backgroundColor = .green
         
         //layout viewButton
         viewButton.topAnchor.constraint(equalTo: collectionViewMovie.bottomAnchor).isActive = true
         viewButton.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         viewButton.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         viewButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -(tabBarController?.tabBar.frame.size.height ?? 49.0) - 34).isActive = true
+        viewButton.backgroundColor = .green
         
         //layout bôkingButton
         bookingButton.centerYAnchor.constraint(equalTo: viewButton.centerYAnchor).isActive = true
@@ -364,11 +376,11 @@ class HomeViewController: UIViewController {
         bookingButton.backgroundColor = .red
         
         //layout nameMovieLabel
-        nameMovieLabel.heightAnchor.constraint(equalTo: viewButton.heightAnchor, multiplier: 0.3).isActive = true
+        nameMovieLabel.heightAnchor.constraint(equalTo: viewButton.heightAnchor, multiplier: 0.4).isActive = true
         nameMovieLabel.widthAnchor.constraint(equalTo: viewButton.widthAnchor, multiplier: 0.6).isActive = true
         nameMovieLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16).isActive = true
         nameMovieLabel.topAnchor.constraint(equalTo: viewButton.topAnchor, constant: 10).isActive = true
-        nameMovieLabel.backgroundColor = .red
+//        nameMovieLabel.backgroundColor = .yellow
         
         //layout timeMovieLabel
         timeMovieLabel.heightAnchor.constraint(equalTo: viewButton.heightAnchor, multiplier: 0.3).isActive = true
@@ -393,11 +405,12 @@ class HomeViewController: UIViewController {
             title: "PHIM ĐANG CHIẾU",
             image: UIImage(named: "")
             
+            
         )
         
         let moonItem = SegmentioItem(
             title: "PHIM HAY SẮP CHIẾU",
-            image: UIImage(systemName: "moon.circle.fill")
+            image: UIImage(systemName: "")
         )
         
         content.append(contentsOf: [sunItem, moonItem])
@@ -513,7 +526,7 @@ extension HomeViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-    }
+//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+//        
+//    }
 }

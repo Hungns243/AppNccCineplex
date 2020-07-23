@@ -29,31 +29,34 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // khoi tao tabBarController
         let tabBar = UITabBarController()
         
+        
         //khoi tao FirstViewController
         let firstVC = HomeViewController()
-        firstVC.view.backgroundColor = .lightGray
+        firstVC.view.backgroundColor = .clear
         firstVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "BUTTONHOME"), tag: 1)
         firstVC.tabBarItem.badgeValue = "N"
-        
-//        let navigationFirst = UINavigationController(rootViewController: firstVC)
         
         
         
         let secondVC = MovieScheduleViewController()
-        secondVC.view.backgroundColor = .purple
+        secondVC.view.backgroundColor = .clear
         secondVC.tabBarItem = UITabBarItem(title: "Lịch chiếu", image: UIImage(named: "movie"), tag: 2)
-        secondVC.tabBarItem.badgeValue = "H"
         
         let thirdVC = MovieTicketPriceViewController()
-        thirdVC.view.backgroundColor = .green
+        thirdVC.view.backgroundColor = .clear
         thirdVC.tabBarItem = UITabBarItem(title: "Khuyến mãi", image: UIImage(named: "BUTTONKM"), tag: 3)
         
         let fourVC = PromotionViewController()
-        fourVC.view.backgroundColor = .yellow
+        fourVC.view.backgroundColor = .clear
         fourVC.tabBarItem = UITabBarItem(title: "Giá vé", image: UIImage(named: "iconTicket"), tag: 4)
         
         // them cac man hinh vao tabbarcontroller
         tabBar.setViewControllers([firstVC, secondVC, thirdVC, fourVC], animated: true)
+        tabBar.tabBar.backgroundColor = .black
+        UITabBar.appearance().tintColor = .red
+
+        
+    
         
         return tabBar
     }

@@ -16,7 +16,6 @@
 		CE437AA924AB21C20096268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE437AA824AB21C20096268F /* Assets.xcassets */; };
 		CE437AAC24AB21C20096268F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE437AAA24AB21C20096268F /* LaunchScreen.storyboard */; };
 		CE437AB424AB22C70096268F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE437AB324AB22C70096268F /* HomeViewController.swift */; };
-		CE81ABE324BD96DB00A8454F /* DataComingSunMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81ABE224BD96DB00A8454F /* DataComingSunMovie.swift */; };
 		CEC0516424B3108C004283D0 /* MovieScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0516324B3108C004283D0 /* MovieScheduleViewController.swift */; };
 		CEC0516624B310C2004283D0 /* PromotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0516524B310C2004283D0 /* PromotionViewController.swift */; };
 		CEC0516824B31100004283D0 /* MovieTicketPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0516724B31100004283D0 /* MovieTicketPriceViewController.swift */; };
@@ -39,7 +38,6 @@
 		CE437AAD24AB21C20096268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE437AB324AB22C70096268F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CE437AB524AB3F490096268F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CE81ABE224BD96DB00A8454F /* DataComingSunMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataComingSunMovie.swift; sourceTree = "<group>"; };
 		CEC0516324B3108C004283D0 /* MovieScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScheduleViewController.swift; sourceTree = "<group>"; };
 		CEC0516524B310C2004283D0 /* PromotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionViewController.swift; sourceTree = "<group>"; };
 		CEC0516724B31100004283D0 /* MovieTicketPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTicketPriceViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 				CE437AB324AB22C70096268F /* HomeViewController.swift */,
 				CE3D7E5624B42BB0004F2B0B /* HomeCollectionViewCell.swift */,
 				CEE8163D24B56EA8009F1221 /* DataMovie.swift */,
-				CE81ABE224BD96DB00A8454F /* DataComingSunMovie.swift */,
 				CEC0516324B3108C004283D0 /* MovieScheduleViewController.swift */,
 				CEC0516724B31100004283D0 /* MovieTicketPriceViewController.swift */,
 				CEC0516524B310C2004283D0 /* PromotionViewController.swift */,
@@ -245,7 +242,6 @@
 				CE3D7E5724B42BB0004F2B0B /* HomeCollectionViewCell.swift in Sources */,
 				CEC0516824B31100004283D0 /* MovieTicketPriceViewController.swift in Sources */,
 				CE437AB424AB22C70096268F /* HomeViewController.swift in Sources */,
-				CE81ABE324BD96DB00A8454F /* DataComingSunMovie.swift in Sources */,
 				CEC0516624B310C2004283D0 /* PromotionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

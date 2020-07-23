@@ -14,7 +14,6 @@ class HomeCollectionViewCell: UICollectionViewCell {
         let container = UIView()
         container.translatesAutoresizingMaskIntoConstraints = false
         
-        container.backgroundColor = .red
         
         return container
     }()
@@ -44,10 +43,10 @@ class HomeCollectionViewCell: UICollectionViewCell {
     func setupLayout(){
         self.addSubview(containerView)
         
-        containerView.topAnchor.constraint(equalTo: self.topAnchor, constant: 8).isActive = true
-        containerView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 32).isActive = true
-        containerView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -32).isActive = true
-        containerView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -8).isActive = true
+        containerView.topAnchor.constraint(equalTo: self.topAnchor, constant: 16).isActive = true
+        containerView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 54).isActive = true
+        containerView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -54).isActive = true
+        containerView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -16).isActive = true
         
         containerView.addSubview(imageView)
         
